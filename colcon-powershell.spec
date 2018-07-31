@@ -4,7 +4,7 @@
 #
 Name     : colcon-powershell
 Version  : 0.3.3
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/c8/7a/26612eb3a1b1dcd1ca69177c74d172dac7563f1c392f2067f6a2e148046a/colcon-powershell-0.3.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c8/7a/26612eb3a1b1dcd1ca69177c74d172dac7563f1c392f2067f6a2e148046a/colcon-powershell-0.3.3.tar.gz
 Summary  : Extension for colcon to provide PowerShell scripts.
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: colcon-powershell-python3
 Requires: colcon-powershell-python
+Requires: colcon-core
 BuildRequires : buildreq-distutils3
 
 %description
@@ -43,7 +44,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532980986
+export SOURCE_DATE_EPOCH=1533002860
 python3 setup.py build -b py3
 
 %install
