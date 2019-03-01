@@ -1,5 +1,5 @@
 PKG_NAME := colcon-powershell
-URL = https://files.pythonhosted.org/packages/c8/7a/26612eb3a1b1dcd1ca69177c74d172dac7563f1c392f2067f6a2e148046a/colcon-powershell-0.3.3.tar.gz
+URL = https://files.pythonhosted.org/packages/71/47/09e63a06b4d4df417323f37e4bb13a2629f41c8cea31dc3bbd7bc1d8d69f/colcon-powershell-0.3.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
