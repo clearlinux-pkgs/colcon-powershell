@@ -4,7 +4,7 @@
 #
 Name     : colcon-powershell
 Version  : 0.3.6
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/c2/be/fbcd45cdeda666c5626deb65e2405c76516d4436fc19beb6de6408db31b5/colcon-powershell-0.3.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c2/be/fbcd45cdeda666c5626deb65e2405c76516d4436fc19beb6de6408db31b5/colcon-powershell-0.3.6.tar.gz
 Summary  : Extension for colcon to provide PowerShell scripts.
@@ -17,10 +17,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : colcon-core
 
 %description
-colcon-powershell
 =================
-
-An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `PowerShell <https://github.com/PowerShell/PowerShell>`_ scripts.
 
 %package python
 Summary: python components for the colcon-powershell package.
@@ -35,7 +32,8 @@ python components for the colcon-powershell package.
 Summary: python3 components for the colcon-powershell package.
 Group: Default
 Requires: python3-core
-Provides: pypi(colcon-powershell)
+Provides: pypi(colcon_powershell)
+Requires: pypi(colcon_core)
 
 %description python3
 python3 components for the colcon-powershell package.
@@ -50,8 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582910608
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583528519
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
