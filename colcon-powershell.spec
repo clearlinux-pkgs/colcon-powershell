@@ -4,7 +4,7 @@
 #
 Name     : colcon-powershell
 Version  : 0.3.6
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/c2/be/fbcd45cdeda666c5626deb65e2405c76516d4436fc19beb6de6408db31b5/colcon-powershell-0.3.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c2/be/fbcd45cdeda666c5626deb65e2405c76516d4436fc19beb6de6408db31b5/colcon-powershell-0.3.6.tar.gz
 Summary  : Extension for colcon to provide PowerShell scripts.
